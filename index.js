@@ -1,13 +1,13 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { generateMarkdown } = require('./utils/generateMarkdown');
+const { generateMarkdown } = require('../readme-generator/utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
       {
         type: 'input',
-        name: 'Projecttitle',
+        name: 'title',
         message: 'Project Title? (Required)',
         validate: nameInput => {
           if (nameInput) {
@@ -20,7 +20,7 @@ const questions = () => {
       },
       {
         type: 'input',
-        name: 'githubusername',
+        name: 'user',
         message: 'Please enter your github username?',
         validate: githubInput => {
           if (githubInput) {
@@ -33,8 +33,8 @@ const questions = () => {
       },
       {
         type: 'input',
-        name: 'contributing',
-        message: 'Please list your contributors,',
+        name: 'contribution',
+        message: 'Please enter the contribution requirements for this project',
         validate: contributeInput => {
           if (contributeInput) {
             return true;
@@ -72,7 +72,7 @@ const questions = () => {
         },
         {
           type: 'input',
-          name: 'installation',
+          name: 'install',
           message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
         },
         {
