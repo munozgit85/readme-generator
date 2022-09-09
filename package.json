@@ -1,0 +1,25 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Readme Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munozgit85/readme-generator.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Racquel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/munozgit85/readme-generator/issues"
+  },
+  "homepage": "https://github.com/munozgit85/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
