@@ -3,7 +3,7 @@ const fs = require('fs');
 
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  var licenseType = license.license; // i think this is problem #1
+  var licenseType = license.license;
   var yourLicense = ''
   if(licenseType === 'MIT') {
     yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
@@ -23,8 +23,8 @@ function renderLicenseLink(data) {
   if (data.license === 'MIT') {
     return `
   ### MIT License
-   
-   Copyright (c) [2021] [${data.user}]
+  https://mit-license.org/
+   Copyright (c) [2022] [${data.user}]
 
   > __Permission is hereby granted, free of charge, to any person obtaining a copy__
   > __of this software and associated documentation files (the "Software"), to deal__
@@ -91,6 +91,7 @@ function renderLicenseLink(data) {
     `
   } else if (data.license === 'GNU LGPL') {
     return `
+    https://www.gnu.org/licenses/lgpl-3.0.en.html
   > ### GNU LESSER GENERAL PUBLIC LICENSE
   > Version 3, 29 June 2007
   > 
@@ -301,6 +302,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
   ${renderLicenseSection(data)}
+  ${data.license}
   ## Contributing
   ${data.contribution}
   ## Tests
