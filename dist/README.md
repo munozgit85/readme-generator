@@ -1,9 +1,9 @@
-# readme generator
+# readme
   
   
 
   ## Description
-  It is an application that uses the command line to prompt the user to answer questions  that generate a readme . The questions answer the various section of the readme that include: description, Title, table of contents, installation, usage, license, contributing, test, and questions. 
+  generates a readme 
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -13,9 +13,9 @@
   * [Questions](#Questions)
   ***
   ## Installation
-  first install nodejs for your platform, then install npm inquire 8.2.4. 
+  install nodejs, and inquire 
   ## Usage
-   First clone the repo to your local repository. Then open the root of the project on the command line. Ensure the installations are complete. Once  completed, then type i node index and enter. Answer the prompts . tWhen the  prompts are completed  then the  Readme  is  generated in the dist  Folder .
+  clone repo, then install above applications, then open command line to root of app, then type node index and answer prompts
   
 ## License
 
@@ -23,12 +23,12 @@
   
   MIT
   ## Contributing
-  no contributors 
+  none
   ## Tests
-  no test were used
+  none
   
   ## Questions
   For further Questions About This Application , Please Feel Free To Use The Contact Below:
   >Email: racquelg85@hotmail.com 
-  >GitHub : [munozgit85](https://github.com/munozgit85)
+  >GitHub : [munoz](https://github.com/munoz)
   
