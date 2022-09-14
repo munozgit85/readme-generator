@@ -1,9 +1,9 @@
-# readme
+# nj
   
   
 
   ## Description
-  generates a readme 
+  ni
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -13,22 +13,23 @@
   * [Questions](#Questions)
   ***
   ## Installation
-  install nodejs, and inquire 
+  nj
   ## Usage
-  clone repo, then install above applications, then open command line to root of app, then type node index and answer prompts
+  nj
   
 ## License
 
 
   
+  
   MIT
   ## Contributing
-  none
+  nj
   ## Tests
-  none
+  nj
   
   ## Questions
   For further Questions About This Application , Please Feel Free To Use The Contact Below:
-  >Email: racquelg85@hotmail.com 
-  >GitHub : [munoz](https://github.com/munoz)
+  >Email: nk 
+  >GitHub : [nj](https://github.com/nj)
   

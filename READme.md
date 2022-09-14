@@ -31,8 +31,9 @@ to devote to the application.
     Fourth, answer the prompted questions. 
     Fifth, find the completed Readme in the dist folder. 
 
-Link to the video of the application: https://drive.google.com/file/d/1P2rUQf8lc_DCYnC25JOT7QmnmP5GTQTy/view
-
+Link to the video of the application:
+https://github.com/munozgit85/readme-generator/blob/852a4679d5b05633877f435def17c9d4a3dd40f8/readme-gen.mp4
+  
   ## License
     No license. 
 
