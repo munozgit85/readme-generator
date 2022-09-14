@@ -1,9 +1,9 @@
-# nj
-  
-  
+# readme
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](undefined)
+
 
   ## Description
-  ni
+  readme generator
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -13,23 +13,19 @@
   * [Questions](#Questions)
   ***
   ## Installation
-  nj
+  install node and inquire
   ## Usage
-  nj
-  
-## License
+  clone repo, install required app, and type node index in command line of root of project
+  ## Licenses
+    This project is covered under the MIT license. Please click the badge to review license.
 
-
-  
-  
-  MIT
   ## Contributing
-  nj
+  none
   ## Tests
-  nj
+  none
   
   ## Questions
   For further Questions About This Application , Please Feel Free To Use The Contact Below:
-  >Email: nk 
-  >GitHub : [nj](https://github.com/nj)
+  >Email: racquel 
+  >GitHub : [munoz](https://github.com/munoz)
   

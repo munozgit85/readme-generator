@@ -91,7 +91,7 @@ const questions = () => {
     {
       type: 'checkbox',
       name: 'license',
-      choices: ["MIT", "GPLv3", "GPL"],
+      choices: ["MIT", "GPLv3", "AUR"],
       message: 'Choose your License.'
     },
     {
